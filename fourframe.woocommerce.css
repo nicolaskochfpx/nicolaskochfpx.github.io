@@ -14,6 +14,7 @@ label {
 .product {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 50px;
 }
 
 .woocommerce-product-rating { 
