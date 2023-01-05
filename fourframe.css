@@ -180,7 +180,8 @@ button {
 }
 
 ul {
-    list-style: inside;
+    list-style: square;
+    padding-inline-start: 16px;
 }
 
 /* LAYOUT */
