@@ -11,14 +11,15 @@ label {
     margin-bottom: 0.5rem;
 }
 
-.product {
+#single-product div.product {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    gap: 3rem;
 }
 
 .woocommerce-notices-wrapper {
     padding: 2rem;
+    margin-bottom: 3rem;
 }
 
 .woocommerce-product-rating { 
@@ -34,7 +35,7 @@ label {
 }
 
 button.button {
-    display: inline;
+    display: inline-block;
 }
 
 p.price {
@@ -44,3 +45,11 @@ p.price {
 .product_title {
     margin-bottom: 1rem;
 }
+
+
+@media screen and (max-width: 1024px) {
+    #single-product div.product {
+        grid-template-columns: 1fr;
+    }
+}
+
