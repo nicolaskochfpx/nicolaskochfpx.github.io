@@ -322,6 +322,10 @@ position: -webkit-sticky;
     .container-flat {
         padding: 1rem 3rem;
     }
+
+    .container-maxflat {
+        padding: 0rem 3rem;
+    }
 	
 	.not-mobile {
 		display: none;
