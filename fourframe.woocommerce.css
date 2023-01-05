@@ -1,0 +1,41 @@
+/* WOOCOMMERCE */
+
+a.remove {
+    background-color: var(--color1);
+    color: var(--color2);
+    padding: 1rem;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.woocommerce-product-rating { 
+    display: none;
+}
+
+.product_meta span {
+    display: block;
+}
+
+.quantity {
+    display: inline;
+}
+
+button.button {
+    display: inline;
+}
+
+p.price {
+    font-size: 6rem;
+}
+
+.product_title {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,300 @@
+/* RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ALLGEMEIN */
+
+:root {
+    --color1: #000;
+    --color2: #fff;
+    --color3: #ff0000;
+    --color4: #0000ff;
+    --color5: #00ff00;
+    --color6: #ffff00;
+    --color7: #00ffff;
+    --color8: #ff00ff;
+}
+
+.background-1 {
+    background-color: var(--color1);
+}
+
+.background-2 {
+    background-color: var(--color2);
+}
+
+.background-3 {
+    background-color: var(--color3);
+}
+
+.background-4 {
+    background-color: var(--color4);
+}
+
+.background-5 {
+    background-color: var(--color5);
+}
+
+.background-6 {
+    background-color: var(--color6);
+}
+
+.background-7 {
+    background-color: var(--color7);
+}
+
+.background-8 {
+    background-color: var(--color8);
+}
+
+.color-1 {
+    color: var(--color1);
+}
+
+.color-2 {
+    color: var(--color2);
+}
+
+.color-3 {
+    color: var(--color3);
+}
+
+.color-4 {
+    color: var(--color4);
+}
+
+.color-5 {
+    color: var(--color5);
+}
+
+.color-6 {
+    color: var(--color6);
+}
+
+.color-7 {
+    color: var(--color7);
+}
+
+.color-8 {
+    color: var(--color8);
+}
+
+html, * {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 15px;  
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+}
+
+img {
+    width: 100%;
+	height: auto;
+}
+
+th, td {
+    padding: 1rem;
+    vertical-align: middle;
+}
+
+table {
+    width: 100%;
+}
+
+input, select, textarea {
+    margin-bottom: 2rem;
+    width: -webkit-fill-available;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* LAYOUT */
+
+.container {
+    padding: 6rem;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.container-flat {
+    padding: 1rem 6rem;
+}
+
+.container-maxflat {
+    padding: 0rem 6rem;
+}
+
+.boxed {
+    max-width: 800px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.column {
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.columns {
+    gap: 3rem;
+}
+
+.gap {
+    gap: 1rem;
+}
+
+.ta-center {
+    text-align: center;
+}
+
+.fullvh {
+    min-height: 100vh;
+}
+
+.element{
+    margin-bottom: 2rem;
+}
+
+.active {
+    display: block;
+}
+
+.sticky {
+position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+.absolute {
+	position: absolute;
+	width: 100%;
+}
+
+.relative {
+	position: relative;
+}
+
+.z-index {
+	z-index: 9999;
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.overflow-xhidden {
+	overflow-x: hidden;
+}
+
+.minus-margin-right {
+	margin-right: -12rem;
+}
+
+.minus-margin-left {
+	margin-left: -12rem;
+}
+
+/* MOBILE */
+
+
+@media screen and (max-width: 1024px) {
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .container {
+        padding: 3rem;
+    }
+
+    .container-flat {
+        padding: 1rem 3rem;
+    }
+	
+	.not-mobile {
+		display: none;
+	}
+	
+	
+}
