@@ -284,6 +284,10 @@ position: -webkit-sticky;
 	margin-left: -12rem;
 }
 
+.text-small {
+    font-size: 0.75rem;
+}
+
 /* MOBILE */
 
 
