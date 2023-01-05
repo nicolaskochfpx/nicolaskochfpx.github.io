@@ -310,6 +310,10 @@ position: -webkit-sticky;
         flex-direction: column;
     }
 
+    .row {
+        flex-direction: row;
+    }
+
     .container {
         padding: 3rem;
     }
