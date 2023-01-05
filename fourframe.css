@@ -299,6 +299,7 @@ position: -webkit-sticky;
 
 .bg-cover {
     background-size: cover;
+    background-position: left;
 }
 
 /* MOBILE */
@@ -326,5 +327,12 @@ position: -webkit-sticky;
 		display: none;
 	}
 	
+    .grid-4 {
+        grid-template-columns: 1fr;
+    }
+    
+    .fullvh {
+        min-height: 50vh;
+    }
 	
 }
