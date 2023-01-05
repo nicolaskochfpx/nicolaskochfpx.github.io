@@ -17,6 +17,10 @@ label {
     gap: 50px;
 }
 
+.woocommerce-notices-wrapper {
+    padding: 2rem;
+}
+
 .woocommerce-product-rating { 
     display: none;
 }

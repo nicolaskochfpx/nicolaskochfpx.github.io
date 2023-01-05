@@ -202,6 +202,15 @@ button {
     flex-direction: row;
 }
 
+.grid {
+    display: grid;
+    gap: 2rem;
+}
+
+.grid-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .space-between {
     justify-content: space-between;
 }
