@@ -229,6 +229,10 @@ button {
     gap: 3rem;
 }
 
+.no-gap {
+    gap: 0;
+}
+
 .gap {
     gap: 1rem;
 }
@@ -286,6 +290,10 @@ position: -webkit-sticky;
 
 .text-small {
     font-size: 0.75rem;
+}
+
+.bg-cover {
+    background-size: cover;
 }
 
 /* MOBILE */
