@@ -179,6 +179,10 @@ button {
     cursor: pointer;
 }
 
+ul {
+    list-style: inside;
+}
+
 /* LAYOUT */
 
 .container {
