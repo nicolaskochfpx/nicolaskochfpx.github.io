@@ -244,6 +244,7 @@ ul {
 
 .columns {
     gap: 3rem;
+    display: flex;
 }
 
 .no-gap {
