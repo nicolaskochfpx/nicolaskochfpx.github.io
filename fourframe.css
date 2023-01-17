@@ -211,6 +211,10 @@ ul {
     flex-direction: row;
 }
 
+.inline-flex {
+    display: inline-flex;
+}
+
 .grid {
     display: grid;
     gap: 2rem;
