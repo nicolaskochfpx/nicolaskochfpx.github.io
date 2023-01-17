@@ -277,6 +277,10 @@ position: -webkit-sticky;
 	width: 100%;
 }
 
+.top {
+    top: 0;
+}
+
 .relative {
 	position: relative;
 }
