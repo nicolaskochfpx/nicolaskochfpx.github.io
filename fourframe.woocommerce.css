@@ -1,6 +1,6 @@
 /* WOOCOMMERCE */
 
-input {
+input, select, textarea {
     border: 0;
     padding: 1rem;
     background-color: var(--color3);
