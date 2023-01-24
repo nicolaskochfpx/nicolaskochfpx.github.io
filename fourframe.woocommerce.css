@@ -3,6 +3,7 @@
 input {
     border: 0;
     padding: 1rem;
+    background-color: var(--color3);
 }
 
 #order_review_heading {
