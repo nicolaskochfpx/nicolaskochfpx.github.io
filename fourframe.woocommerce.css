@@ -6,6 +6,7 @@ input, select, textarea {
     background-color: var(--color3);
     font-family: inherit !important;
     border-radius: 1rem;
+    color: var(--color2);
 }
 
 #order_review_heading {
