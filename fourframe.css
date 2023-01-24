@@ -158,6 +158,10 @@ img {
     display: block;
 }
 
+img.not-width {
+    width: auto;
+}
+
 th, td {
     padding: 1rem;
     vertical-align: middle;
