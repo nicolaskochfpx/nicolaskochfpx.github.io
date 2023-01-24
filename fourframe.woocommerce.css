@@ -10,6 +10,10 @@ input {
     display: none;
 }
 
+h3#order_payment_heading {
+    margin-bottom: 2rem;
+}
+
 .col-1, .col-2 {
     float: none !important;
     width: 100% !important;
