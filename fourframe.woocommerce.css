@@ -5,6 +5,10 @@ input {
     padding: 1rem;
 }
 
+#order_review_heading {
+    display: none;
+}
+
 a.remove {
     background-color: var(--color1);
     color: var(--color2);
