@@ -10,8 +10,8 @@ input {
 }
 
 .col-1, .col-2 {
-    float: none;
-    width: 100%;
+    float: none !important;
+    width: 100% !important;
 }
 
 a.remove {
