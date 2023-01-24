@@ -4,6 +4,7 @@ input {
     border: 0;
     padding: 1rem;
     background-color: var(--color3);
+    font-family: inherit !important;
 }
 
 #order_review_heading {
