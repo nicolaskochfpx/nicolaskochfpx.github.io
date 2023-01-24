@@ -9,6 +9,11 @@ input {
     display: none;
 }
 
+.col-1, .col-2 {
+    float: none;
+    width: 100%;
+}
+
 a.remove {
     background-color: var(--color1);
     color: var(--color2);
