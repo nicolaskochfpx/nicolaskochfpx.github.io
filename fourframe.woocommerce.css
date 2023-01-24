@@ -5,6 +5,7 @@ input, select, textarea {
     padding: 1rem;
     background-color: var(--color3);
     font-family: inherit !important;
+    border-radius: 1rem;
 }
 
 #order_review_heading {
