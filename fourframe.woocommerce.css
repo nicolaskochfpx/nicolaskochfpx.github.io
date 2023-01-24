@@ -1,5 +1,10 @@
 /* WOOCOMMERCE */
 
+input {
+    border: 0;
+    padding: 1rem;
+}
+
 a.remove {
     background-color: var(--color1);
     color: var(--color2);
