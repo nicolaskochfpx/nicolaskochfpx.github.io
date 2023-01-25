@@ -172,8 +172,8 @@ table {
 }
 
 input, select, textarea {
-    margin-bottom: 2rem;
-   /* width: -webkit-fill-available;
+   /* margin-bottom: 2rem;
+    width: -webkit-fill-available;
     -webkit-appearance: none;
    -moz-appearance: none;
    appearance: none; */
