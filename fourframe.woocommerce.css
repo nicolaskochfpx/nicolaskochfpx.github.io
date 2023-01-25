@@ -64,6 +64,7 @@ button, .button {
     border-radius: 1rem !important;
     padding: 1rem !important;
     color: var(--color1) !important;
+    border: 0 !important;
 }
 
 
