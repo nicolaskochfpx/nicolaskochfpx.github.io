@@ -82,6 +82,10 @@ form.checkout.woocommerce-checkout {
     border-top-color: var(--color1);
 }
 
+.woocommerce-error::before, .woocommerce-info::before, .woocommerce-message::before {
+    color: var(--color1);
+}
+
 @media screen and (max-width: 1024px) {
     #single-product div.product {
         grid-template-columns: 1fr;
