@@ -165,6 +165,7 @@ img.not-width {
 th, td {
     padding: 1rem;
     vertical-align: middle;
+    text-align: left;
 }
 
 table {
