@@ -229,6 +229,10 @@ ul {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.grid-6 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
 .space-between {
     justify-content: space-between;
 }
@@ -369,7 +373,7 @@ position: -webkit-sticky;
 		display: none;
 	}
 	
-    .grid-4 {
+    .grid-4, .grid-6 {
         grid-template-columns: 1fr;
     }
     
