@@ -191,6 +191,10 @@ ul {
 
 /* LAYOUT */
 
+.width-100 {
+    width: 100%;
+}
+
 .container {
     padding: 6rem;
 }
@@ -254,6 +258,21 @@ ul {
 .columns {
     gap: 3rem;
     display: flex;
+}
+
+.is-3 {
+    width: 25%;
+    flex: none;
+}
+
+.is-6 {
+    width: 50%;
+    flex: none;
+}
+
+.is-9 {
+    width: 75%;
+    flex: none;
 }
 
 .no-gap {
