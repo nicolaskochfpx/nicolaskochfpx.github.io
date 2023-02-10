@@ -400,4 +400,7 @@ position: -webkit-sticky;
         min-height: 50vh;
     }
 	
+    .is-3, .is-6, .is-9 {
+        width: 100%;
+    }
 }
