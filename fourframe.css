@@ -180,6 +180,10 @@ input, select, textarea {
    appearance: none; */
 }
 
+.border-radius {
+    border-radius: 1rem;
+}
+
 button {
     cursor: pointer;
 }
