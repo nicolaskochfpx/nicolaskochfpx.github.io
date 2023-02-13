@@ -203,6 +203,10 @@ ul {
     padding: 6rem;
 }
 
+.container-half {
+    padding: 3rem;
+}
+
 .center {
     margin: 0 auto;
 }
