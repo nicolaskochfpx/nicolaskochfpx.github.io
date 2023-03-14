@@ -376,6 +376,10 @@ position: -webkit-sticky;
     background-position: left;
 }
 
+.square {
+    padding-top: 100%;
+}
+
 /* MOBILE */
 
 
