@@ -385,12 +385,14 @@ position: -webkit-sticky;
 
 @media screen and (max-width: 1024px) {
 
-    .columns-reverse {
-        flex-direction: column-reverse;
-    }
+ 
 
     .flex, .columns {
         flex-direction: column;
+    }
+
+    .columns-reverse {
+        flex-direction: column-reverse;
     }
 
     .row {
