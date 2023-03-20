@@ -380,12 +380,19 @@ position: -webkit-sticky;
     padding-top: 100%;
 }
 
+.not-desktop {
+    display: none;
+}
+
 /* MOBILE */
+
 
 
 @media screen and (max-width: 1024px) {
 
- 
+    .not-desktop {
+        display: block;
+    }
 
     .flex, .columns {
         flex-direction: column;
