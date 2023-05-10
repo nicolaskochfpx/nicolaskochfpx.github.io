@@ -204,6 +204,10 @@ ul {
     width: 100%;
 }
 
+.webkit-fill-available {
+    width: -webkit-fill-available;
+}
+
 .container {
     padding: 6rem;
 }
