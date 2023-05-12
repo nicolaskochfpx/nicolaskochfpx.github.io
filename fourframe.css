@@ -439,7 +439,7 @@ position: -webkit-sticky;
 		display: none;
 	}
 	
-    .grid-4, .grid-6 {
+    .grid-4, .grid-6, .grid-2, .grid-3 {
         grid-template-columns: 1fr;
     }
 
