@@ -376,6 +376,10 @@ position: -webkit-sticky;
 	overflow-x: hidden;
 }
 
+.overflow-scroll {
+    overflow: scroll;
+}
+
 .minus-margin-right {
 	margin-right: -12rem;
 }
