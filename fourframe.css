@@ -185,6 +185,10 @@ input, select, textarea {
    appearance: none; */
 }
 
+input[type="radio"], input[type='checkbox'] {
+    width: auto;
+}
+
 .border-radius {
     border-radius: 1rem;
 }
