@@ -254,6 +254,10 @@ ul {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.grid-5 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
 .grid-2 {
     grid-template-columns: 1fr 1fr;
 }
@@ -447,7 +451,7 @@ position: -webkit-sticky;
 		display: none;
 	}
 	
-    .grid-4, .grid-6, .grid-2, .grid-3 {
+    .grid-4, .grid-6, .grid-2, .grid-3, .grid-5 {
         grid-template-columns: 1fr;
     }
 
