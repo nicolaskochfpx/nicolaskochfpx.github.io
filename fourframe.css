@@ -413,6 +413,11 @@ position: -webkit-sticky;
     display: none;
 }
 
+
+.line-through {
+    text-decoration: line-through;
+}
+
 /* MOBILE */
 
 
