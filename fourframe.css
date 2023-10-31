@@ -410,7 +410,7 @@ position: -webkit-sticky;
 }
 
 .not-desktop {
-    display: flex;
+    display: none;
 }
 
 .line-through {
@@ -423,6 +423,10 @@ position: -webkit-sticky;
 
     .not-desktop {
         display: block;
+    }
+
+    .flex {
+        display: flex;
     }
 
     .flex, .columns {
