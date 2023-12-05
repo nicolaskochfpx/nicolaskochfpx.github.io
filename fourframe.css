@@ -59,6 +59,10 @@ table {
     --color8: #ff00ff;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .background-1 {
     background-color: var(--color1);
 }
