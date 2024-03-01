@@ -183,6 +183,7 @@ table {
 
 input, select, textarea {
     width: -webkit-fill-available;
+    width: -moz-available;
   /* margin-bottom: 2rem;
     -webkit-appearance: none;
    -moz-appearance: none;
