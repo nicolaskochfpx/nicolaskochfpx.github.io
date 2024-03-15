@@ -288,6 +288,14 @@ ul {
     justify-content: center;
 }
 
+.justify-right {
+    justify-content: right;
+}
+
+.justify-left {
+    justify-content: left;
+}
+
 .align-center {
     align-items: center;
 }
