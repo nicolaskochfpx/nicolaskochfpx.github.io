@@ -246,6 +246,10 @@ ul {
     flex-direction: row;
 }
 
+.direction-column {
+    flex-direction: column;
+}
+
 .inline-flex {
     display: inline-flex;
 }
