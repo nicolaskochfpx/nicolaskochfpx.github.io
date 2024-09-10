@@ -184,6 +184,13 @@ html {
     min-width: 50%;
 }
 
+.flex {
+    display: flex;
+}
+
+.align-content-center {
+    align-content: center;
+}
 .gap {
     gap: var(--gap);
 }
