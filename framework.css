@@ -184,6 +184,11 @@ html {
     min-width: 50%;
 }
 
+.column-40 {
+    max-width: 40%;
+    min-width: 40%;
+}
+
 .flex {
     display: flex;
 }
