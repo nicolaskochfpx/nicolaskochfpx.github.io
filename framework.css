@@ -151,3 +151,21 @@ html {
     max-width: var(--max-width);
     margin: 0 auto;
 }
+
+.columns {
+    display: flex;
+    gap: var(--gap);
+}
+
+.column {
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.column-full-width {
+    margin-right: calc((50vw - 50%)* -1);
+}
+.column-half {
+    max-width: 50%;
+}
