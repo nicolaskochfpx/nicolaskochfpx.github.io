@@ -191,6 +191,7 @@ html {
 .align-content-center {
     align-content: center;
 }
+
 .gap {
     gap: var(--gap);
 }
@@ -205,6 +206,10 @@ img {
 
 .object-fit-cover {
     object-fit: cover;
+}
+
+.z-index {
+    z-index: 99999;
 }
 
 @media screen and (max-width: 1024px) {
