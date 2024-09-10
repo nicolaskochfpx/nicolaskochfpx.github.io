@@ -227,7 +227,7 @@ img {
     .columns {
         flex-direction: column;
     }
-    .column-50, .column-40 {
+    .col-50, .col-40 {
         max-width: unset;
         min-width: unset;
     }
