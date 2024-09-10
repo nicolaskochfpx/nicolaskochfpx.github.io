@@ -168,3 +168,13 @@ html {
 .column-half {
     max-width: 50%;
 }
+
+img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .columns {
+        flex-direction: column;
+    }
+}
