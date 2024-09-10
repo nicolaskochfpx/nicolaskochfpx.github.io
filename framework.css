@@ -205,7 +205,6 @@ img {
     }
     .columns {
         flex-direction: column;
-        gap: var(--gap-mobile);
     }
     .column-50 {
         max-width: unset;
@@ -213,6 +212,9 @@ img {
     }
     .columns-reverse {
         flex-direction: column-reverse;
+    }
+    .gap {
+        gap: var(--gap-mobile);
     }
     .full-height {
         height: 50vh;
