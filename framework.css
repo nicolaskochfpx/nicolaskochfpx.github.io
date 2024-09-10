@@ -179,6 +179,14 @@ img {
     width: 100%;
 }
 
+.full-height {
+    height: 100vh;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
 @media screen and (max-width: 1024px) {
     .container {
         padding: var(--padding-mobile);
@@ -189,5 +197,11 @@ img {
     }
     .column-50 {
         max-width: unset;
+    }
+    .columns-reverse {
+        flex-direction: column-reverse;
+    }
+    .full-height {
+        height: 50vh;
     }
 }
