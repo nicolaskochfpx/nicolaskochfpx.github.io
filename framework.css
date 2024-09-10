@@ -179,12 +179,12 @@ html {
 .column-full-width {
     margin-right: calc((50vw - 50%)* -1);
 }
-.column-50 {
+.col-50 {
     max-width: 50%;
     min-width: 50%;
 }
 
-.column-40 {
+.col-40 {
     max-width: 40%;
     min-width: 40%;
 }
