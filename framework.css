@@ -192,6 +192,9 @@ html {
 .flex {
     display: flex;
 }
+.block {
+    display: block;
+}
 
 .align-content-center {
     align-content: center;
