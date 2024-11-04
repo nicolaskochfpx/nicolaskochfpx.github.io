@@ -42,8 +42,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* START CSS */
 
+/* START CSS */
 /* COLORS */
 $colors: (
   1: #ff0000, // Red
@@ -88,7 +88,6 @@ $fonts: (
 /* SETTINGS */
 $max-width: 1500px;
 $padding: 50px;
-$gap: 50px;
 
 * {
     box-sizing: border-box;
@@ -109,7 +108,7 @@ img {
 }
 
 p {
-    margin-bottom: calc($gap / 2);
+    margin-bottom: calc($padding / 2);
 }
 
 ul, ol {
@@ -117,12 +116,12 @@ ul, ol {
 }
 
 hr {
-    margin-bottom: calc($gap / 2);
-    margin-top: calc($gap / 2);
+    margin-bottom: calc($padding / 2);
+    margin-top: calc($padding / 2);
 }
 
 .distance {
-    margin-bottom: calc($gap / 2);
+    margin-bottom: calc($padding / 2);
 }
 
 /* LAYOUT */
@@ -145,7 +144,7 @@ hr {
 }
 
 .gap {
-    gap: calc($gap / 2);
+    gap: calc($padding / 2);
 }
 
 @for $i from 1 through 12 {
@@ -160,11 +159,11 @@ hr {
 
 .flex-direction-row {
     flex-direction: row;
-    gap: $gap;
+    gap: $padding;
 }
 .flex-direction-row-reverse {
     flex-direction: row-reverse;
-    gap: $gap;
+    gap: $padding;
 }
 .flex-direction-column {
     flex-direction: column;
@@ -215,26 +214,35 @@ hr {
 /* TEXT SETINGS */
 
 #markdown *  {
-    margin-bottom: calc($gap / 2);
+    margin-bottom: calc($padding / 2);
     li {
         margin-bottom: 0;
     }
 }
 
 /* TEXT ALIGNMENT */
-
 .text-align-center {
     text-align: center;
 }
-
 .text-align-left {
     text-align: left;
 }
-
 .text-align-right {
     text-align: right;
 }
-
 .text-align-justify {
-    text-align: right;
+    text-align: justify;
 }
+
+/* RESPONSIVE */
+
+/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for tablet screens */
+}
+
+/* Mobile (portrait) */
+@media only screen and (max-width: 600px) {
+    $padding: calc($padding / 2);
+}
+
