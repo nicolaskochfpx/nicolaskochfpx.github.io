@@ -88,6 +88,7 @@ $fonts: (
 /* SETTINGS */
 $max-width: 1500px;
 $padding: 50px;
+$font-size: 15px;
 
 * {
     box-sizing: border-box;
@@ -96,6 +97,7 @@ $padding: 50px;
 html {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     scroll-behavior: smooth;
+    line-height: 1.5em;
 }
 
 a {
@@ -243,6 +245,8 @@ hr {
 
 /* Mobile (portrait) */
 @media only screen and (max-width: 600px) {
-    $padding: calc($padding / 2);
+   .boxed {
+    padding: calc($padding / 2);
+   }
 }
 
