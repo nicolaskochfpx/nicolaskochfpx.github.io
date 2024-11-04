@@ -1,0 +1,246 @@
+/* RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* COLORS */
+$colors: (
+  1: #ff0000, // Red
+  2: #00ff00, // Green
+  3: #0000ff, // Blue
+  4: #ffff00, // Yellow
+  5: #ff00ff, // Magenta
+  6: #00ffff, // Cyan
+  7: #ffffff, // White
+  8: #000000  // Black
+);
+
+@for $i from 1 through 8 {
+    /* Background */
+    .background-#{$i} {
+      background-color: map-get($colors, $i);
+    }
+  }
+
+  @for $i from 1 through 8 {
+    /* Color */
+    .color-#{$i} {
+      color: map-get($colors, $i);
+    }
+  }
+
+/*  */
+
+
+
+    /* DISTANCES */
+    $gap: 50px;
+    $gap-tablet: 50px;
+    $gap-mobile: 25px;
+
+    $padding: 50px;
+    $padding-tablet: 50px;
+    $padding-mobile: 25px;
+
+    $font-size: 15px;
+    $font-size-tablet: 15px;
+    $font-mobile: 15px;
+
+    $line-height: 1.5em;
+    $max-width: 1500px;
+    $max-width-small: 750px;
+    $font-size-headline: 75px;
+
+
+* {
+    box-sizing: border-box;
+    position: relative;
+    line-height: $line-height;
+}
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: $font-size;  
+    scroll-behavior: smooth;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    margin-bottom: $gap-mobile;
+}
+
+ul, ol {
+    padding-inline-start: 16px;
+}
+
+hr {
+    margin-bottom: $gap-mobile;
+    margin-top: $gap-mobile;
+}
+
+.distance {
+    margin-bottom: $gap-mobile;
+}
+
+
+/* LAYOUT */
+.normal {
+    padding: $padding;
+}
+.boxed {
+    margin: 0 auto;
+    max-width: $max-width;
+    padding: $padding;
+}
+.full-width {
+    width: 100%;
+}
+
+/* FLEX SETTINGS */
+
+.flex {
+    display: flex;
+}
+
+.gap {
+    gap: $gap-mobile;
+}
+
+@for $i from 1 through 12 {
+    .flex-#{$i} {
+      flex: $i;  
+    }
+  }
+
+.flex-auto {
+    flex: auto
+}
+
+.flex-direction-row {
+    flex-direction: row;
+    gap: $gap;
+}
+.flex-direction-row-reverse {
+    flex-direction: row-reverse;
+    gap: $gap;
+}
+.flex-direction-column {
+    flex-direction: column;
+}
+.flex-direction-column-reverse {
+    flex-direction: column-reverse;
+}
+
+
+.justify-content-flex-start {
+    justify-content: flex-start;
+}
+.justify-content-flex-end {
+    justify-content: flex-end;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-space-between {
+    justify-content: space-between;
+}
+.justify-content-space-around {
+    justify-content: space-around;
+}
+.justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+
+
+.align-items-flex-start {
+    align-items: flex-start;
+}
+.align-items-flex-end {
+    align-items: flex-end;
+}
+.align-items-center {
+    align-items: center;
+}
+.align-items-stretch {
+    align-items: stretch;
+}
+/* GRID SETTINGS */
+
+.grid {
+    display: grid;
+}
+
+/* TEXT SETINGS */
+
+#markdown *  {
+    margin-bottom: $gap-mobile;
+    li {
+        margin-bottom: 0;
+    }
+}
+
+/* TEXT ALIGNMENT */
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-justify {
+    text-align: right;
+}

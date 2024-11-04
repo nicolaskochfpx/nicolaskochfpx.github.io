@@ -61,12 +61,15 @@ table {
 
     /* DISTANCES */
     --gap: 50px;
+    --gap-tablet: 50px;
     --gap-mobile: 25px;
 
     --padding: 50px;
+    --padding-tablet: 50px;
     --padding-mobile: 25px;
 
     --font-size: 15px;
+    --font-size-tablet: 15px;
     --font-mobile: 15px;
 
     --line-height: 1.5em;
