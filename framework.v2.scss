@@ -87,6 +87,7 @@ $fonts: (
 
 /* SETTINGS */
 $max-width: 1500px;
+$max-width-small: calc($max-width / 2);
 $padding: 50px;
 $font-size: 15px;
 
@@ -133,6 +134,11 @@ hr {
 .boxed {
     margin: 0 auto;
     max-width: $max-width;
+    padding: $padding;
+}
+.boxed-small {
+    margin: 0 auto;
+    max-width: $max-width-small;
     padding: $padding;
 }
 .full-width {
