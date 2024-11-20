@@ -123,6 +123,11 @@ hr {
     max-width: $max-width;
     padding: $padding;
 }
+.boxed-middle {
+    margin: 0 auto;
+    max-width: $max-width-middle;
+    padding: $padding;
+}
 .boxed-small {
     margin: 0 auto;
     max-width: $max-width-small;
